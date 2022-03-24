@@ -187,6 +187,13 @@ height: 324px;
   .slider .lSAction a.lSPrev{
     margin-right: 16px;
   }
+.g-btn{
+  font-size: 18px;
+  height: 46px;
+}
+.g-btn .right{
+  width: 32px;
+}
 }
 
 
@@ -456,5 +463,16 @@ height: 132px;
   }
  .slider .lSAction a.lSPrev{
     margin-right: 8px;
+  }
+  .h-16{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .g-btn{
+    font-size: 12px;
+    height: 40px;
+  }
+  .g-btn .right{
+    width: 12px;
   }
 }

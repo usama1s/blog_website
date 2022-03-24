@@ -131,6 +131,7 @@ nav .navbar-toggler {
   margin-top: 90px;
   position: relative;
   width: fit-content;
+  margin: 0;
   font-family: 'Sora', sans-serif;
 }
 
@@ -1211,4 +1212,37 @@ padding-bottom: 39%;
 .news-sec .list-news .list-news-item>div
 {
   box-shadow: none;
+}
+
+
+
+
+.h-16{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.08em;
+color: #373F66;
+}
+
+.g-btn{
+  padding: 12px 40px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4AC0B1;
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 150%;
+letter-spacing: 0.08em;
+color: #F9F9F9;
+border: 0;
+}
+.g-btn .right{
+  width: 42px;
+  height: auto;
 }
