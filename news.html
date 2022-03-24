@@ -19,6 +19,8 @@
 
   <!-- <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/lightslider.css">
+
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
   <title></title>
@@ -565,6 +567,103 @@
 
 
   <section class="sec-box">
+    <div class="slider popular-articles-list">
+      <ul id="autoWidth" class="cs-hidden">
+
+        <li class="">
+          <div class="popular-article-item ">
+            <div class="">
+              <div class="img">
+                <div class="">
+                  <img src="assets/images/news-img-2.png" alt="">
+                </div>
+              </div>
+              <div class="info">
+                <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                <div class="share">
+                  <p>2022/01/27</p>
+                  <a href="#"> <span>続きを読む</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="">
+          <div class="popular-article-item ">
+            <div class="">
+              <div class="img">
+                <div class="">
+                  <img src="assets/images/news-img-2.png" alt="">
+                </div>
+              </div>
+              <div class="info">
+                <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                <div class="share">
+                  <p>2022/01/27</p>
+                  <a href="#"> <span>続きを読む</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="">
+          <div class="popular-article-item ">
+            <div class="">
+              <div class="img">
+                <div class="">
+                  <img src="assets/images/news-img-2.png" alt="">
+                </div>
+              </div>
+              <div class="info">
+                <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                <div class="share">
+                  <p>2022/01/27</p>
+                  <a href="#"> <span>続きを読む</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="">
+          <div class="popular-article-item ">
+            <div class="">
+              <div class="img">
+                <div class="">
+                  <img src="assets/images/news-img-2.png" alt="">
+                </div>
+              </div>
+              <div class="info">
+                <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                <div class="share">
+                  <p>2022/01/27</p>
+                  <a href="#"> <span>続きを読む</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+<li>
+  <div class="popular-article-item last">
+    <div class="">
+      <div class="info">
+        <div class="share">
+          <a href="#">もっとみる</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</li>
+
+
+      </ul>
+    </div>
+  </section>
+
+
+
+  <section class="sec-box">
     <div class="other-articles">
       <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt=""> Popular Articles</h1>
 
@@ -690,12 +789,12 @@
               <span>Like Page</span>
             </button>
           </div>
-<div class="info">
-  <button type="button" name="button">
-    <img src="assets/images/icons/footer-info.svg" alt="">
-    <span>Learn more</span>
-  </button>
-</div>
+          <div class="info">
+            <button type="button" name="button">
+              <img src="assets/images/icons/footer-info.svg" alt="">
+              <span>Learn more</span>
+            </button>
+          </div>
 
         </div>
         <div class="facebook-posts">
@@ -794,15 +893,15 @@
 
     <div class="footer-bottom">
       <div class="">
-          <div class="logo-side">
-            <img class="lg" src="assets/images/footer-bottom-logo.png" alt="">
+        <div class="logo-side">
+          <img class="lg" src="assets/images/footer-bottom-logo.png" alt="">
 
-          </div>
-          <ul>
-            <li> <a href="#"> <img src="assets/images/icons/twitter.svg" alt=""> </a> </li>
-            <li> <a href="#"> <img src="assets/images/icons/facebook.svg" alt=""> </a> </li>
-            <li> <a href="#"> <img src="assets/images/icons/instagram.svg" alt=""> </a> </li>
-          </ul>
+        </div>
+        <ul>
+          <li> <a href="#"> <img src="assets/images/icons/twitter.svg" alt=""> </a> </li>
+          <li> <a href="#"> <img src="assets/images/icons/facebook.svg" alt=""> </a> </li>
+          <li> <a href="#"> <img src="assets/images/icons/instagram.svg" alt=""> </a> </li>
+        </ul>
       </div>
     </div>
 
@@ -817,6 +916,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
   <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script> -->
 
+  <script type="text/javascript" src="assets/js/lightslider.js"></script>
+  <script>
+  $(document).ready(function() {
+  $('#autoWidth').lightSlider({
+      autoWidth:true,
+      loop:false,
+      onSliderLoad: function() {
+          // $('#autoWidth').removeClass('cS-hidden');
+      }
+  });
+});
+</script>
 </body>
 
 </html>
