@@ -150,6 +150,7 @@ nav .navbar-toggler {
 .sec-box>* {
   max-width: 1180px;
   margin: auto;
+  overflow: hidden;
 }
 
 .news-sec {
@@ -441,6 +442,9 @@ nav .navbar-toggler {
   /* max-width: calc(100% - 1px); */
   overflow-x: auto;
   overflow-y: hidden;
+}
+.nav-pills::-webkit-scrollbar {
+  display: none;
 }
 .nav-pills li{
 
@@ -1066,6 +1070,9 @@ border: 0;
 padding: 10px;
 margin-bottom: 30px;
 }
+.top-header{
+  margin: 0 !important;
+}
 .facebook-posts .facebook-post-item .header{
   display: flex;
   align-items: center;
@@ -1156,16 +1163,43 @@ justify-content: center;
 }
 
 
-
+.slider .lSAction{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 20px;
+  right: 0;
+}
 .slider .lSAction > a {
     width: 32px;
     display: block;
     top: 50%;
     height: 32px;
-    background-image: url('../images/icons/right.svg') !important;
     background: #4AC0B1;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     opacity: 1;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    position: static;
   }
+
+.slider .lSAction a.lSNext{
+  background-image: url('../images/icons/right.svg') !important;
+
+}
+  .slider .lSAction a.lSPrev{
+    background-image: url('../images/icons/left.svg') !important;
+
+    margin-right: 30px;
+  }
+.slider{
+  transform: translateY(-110px);
+  margin-bottom: -100px;
+}
+.slider ul{
+  margin-top: 100px;
+}
