@@ -163,7 +163,13 @@ height: 324px;
   .popular-articles-list .popular-article-item .info a{
     font-size: 12px;
   }
-
+  .facebook-page{
+    max-width: 300px;
+  }
+.facebook-posts{
+  max-height: 509px;
+  max-width: 300px;
+}
 }
 
 
@@ -389,6 +395,19 @@ height: 132px;
     transform: rotate(0deg);
   }
   footer .footer-item{
-    margin-bottom: 0;
+    margin-bottom: 50px;
+  }
+  footer .footer-item ul{
+    /* margin-bottom: 25px; */
+  }
+  .facebook-posts{
+    max-height: 294px;
+  }
+  footer .footer-bottom>div{
+    margin-top: 50px;
+  }
+  footer .footer-bottom .logo-side img{
+    width: 124px;
+    height: auto;
   }
 }
