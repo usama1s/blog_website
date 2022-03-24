@@ -848,9 +848,28 @@ bottom: 0;
   padding: 0;
   border: 0;
 }
+.popular-articles-list .popular-article-item.last  .info .share{
+  width: auto;
+}
 
-
-
+.popular-articles-list .popular-article-item.last .info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.popular-articles-list .popular-article-item.last .info a{
+  position: relative;
+}
+.popular-articles-list .popular-article-item.last a::before{
+background: #373F66;
+height: 1px;
+width: calc(100% + 0px);
+content: "";
+display: block !important;
+position: absolute;
+left: 0;
+bottom: 0;
+}
 
 
 
