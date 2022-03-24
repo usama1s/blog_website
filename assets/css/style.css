@@ -7,7 +7,7 @@
 
 body {
   min-width: 380px;
-  background: #F9F9F9;
+  background: #E5E5E5;
   overflow-x: hidden;
 }
 
@@ -56,7 +56,7 @@ nav .profile-dropdown {
 }
 
 nav .profile-dropdown .dropdown-item {
-  width: 140px;
+  width: 130px;
   height: 40px;
   display: flex;
   align-items: center;
@@ -886,7 +886,7 @@ bottom: 0;
   background: #FFFFFF;
 border-radius: 15px;
 padding: 20px;
-max-width: 264px;
+max-width: 350px;
 margin: auto;
 }
 .other-articles .other-article-item img{
@@ -1072,6 +1072,7 @@ margin-bottom: 30px;
 }
 .top-header{
   margin: 0 !important;
+  overflow: visible;
 }
 .facebook-posts .facebook-post-item .header{
   display: flex;
@@ -1202,4 +1203,11 @@ justify-content: center;
 }
 .slider ul{
   margin-top: 100px;
+}
+.lSSlideOuter .lightSlider, .lSSlideOuter .lSPager {
+padding-bottom: 39%;
+}
+.news-sec .list-news .list-news-item>div
+{
+  box-shadow: none;
 }
