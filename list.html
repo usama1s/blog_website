@@ -97,30 +97,1127 @@
   </section>
 
 
-  <section class="sec-box">
-    <div class="">
+  <section class="sec-box pt-4 mb-4 mb-lg-4 mb-xl-5">
+    <div class="pt-2">
       <div class="row">
-        <div class="col-12 col-md-8 col-lg-8">
-          <h1 class="news-heading mb-3 mb-lg-4">フリーランスDB</h1>
-          <h2 class="h-16 pt-1 pt-lg-3 mb-5 ">
+        <div class="col-12 col-lg-7 col-xl-8">
+          <h1 class="news-heading mb-3 mb-md-3 mt-0">フリーランスDB</h1>
+          <h2 class="h-16 pt-1 pt-lg-1 pb-0 pb-md-4 ">
             副業・兼業人材に仕事を頼みたい。仕事の問合せが欲しい。
             フリーランスの仲間が欲しい。<br>
             そんな時に頼りになる無料プロフィール掲載&検索サービスです。
           </h2>
+          <div class="d-none d-lg-block">
+            <button class="g-btn  mx-auto mx-lg-0" type="button" name="button">
+              無料会員登録でプロフィールを掲載する
+              <img class="ml-2 ml-lg-4  right" src="assets/images/icons/white-right-arrow.svg" alt="">
+            </button>
 
-          <button class="g-btn" type="button" name="button">
-            無料会員登録でプロフィールを掲載する
-            <img class="ml-4 right" src="assets/images/icons/white-right-arrow.svg" alt="">
-          </button>
+            <a class="arrow-underline mt-2" href="#">掲載方法はこちら</a>
+          </div>
+
         </div>
-        <div class="col-12 col-md-4 col-lg-4">
-          <img class="lisitng-banner" src="assets/images/listing-banner.svg" alt="">
+        <div class="col-12 col-lg-5 col-xl-4">
+          <img class="listing-banner d-none d-lg-block" src="assets/images/listing-banner.svg" alt="">
+          <img class="listing-banner d-block d-lg-none mt-4" src="assets/images/listing-banner-2.svg" alt="">
+
         </div>
+      </div>
+      <div class="d-block d-lg-none pt-4">
+        <button class="g-btn mx-auto mx-lg-0 mt-2" type="button" name="button">
+          無料会員登録でプロフィールを掲載する
+          <img class="ml-2 ml-lg-4  right" src="assets/images/icons/white-right-arrow.svg" alt="">
+        </button>
+
+        <a class="arrow-underline mt-3" href="#">掲載方法はこちら</a>
+      </div>
+      <div class="row pt-4">
+        <div class="col-12 col-md-10">
+          <h2 class="h-12">※本データベースに掲載されているのは、フリーランス協会の一般会員および無料会員のうち、プロフィール公開を選択された方です。プロフィール公開は任意となります。 <br>
+            ※当協会は、マッチングや契約内容には一切関与いたしません。秘密保持契約や業務委託契約は、くれぐれもご自身の責任において締結をお願い申し上げます。
+          </h2>
+
+        </div>
+      </div>
+
+
+
+      <div class="mt-5 pt-2 d-none d-lg-block">
+        <table class="w-100">
+          <tr>
+            <td> <span class="h-16-14 pb-3 mb-1">エリア</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1">職種</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1">職種(フリーワード)</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1">仕事の相談</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1">氏名orビジネスネーム</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1">会員種別</span> </td>
+            <td> <span class="h-16-14 pb-3 mb-1"></span> </td>
+
+          </tr>
+          <tr>
+            <td>
+              <select class="g-input" name="">
+                <option value="" selected>神奈川県</option>
+                <option value="">神奈川県</option>
+                <option value="">神奈川県</option>
+              </select>
+            </td>
+            <td>
+              <select class="g-input" name="">
+                <option value="" selected>ブロックチェーンエン</option>
+                <option value="">ブロックチェーンエン</option>
+                <option value="">ブロックチェーンエン</option>
+              </select>
+            </td>
+            <td>
+              <input class="g-input" type="text" name="" value="" placeholder="職種(フリーワード)">
+            </td>
+            <td>
+              <select class="g-input" name="">
+                <option value="" selected>お休み中</option>
+                <option value="">お休み中</option>
+                <option value="">お休み中</option>
+              </select>
+            </td>
+            <td>
+              <input class="g-input" type="text" name="" value="" placeholder="氏名orビジネスネーム">
+            </td>
+            <td>
+              <select class="g-input" name="">
+                <option value="" selected>無料会員</option>
+                <option value="">無料会員</option>
+                <option value="">無料会員</option>
+              </select>
+            </td>
+            <td>
+              <button class="gg-btn" type="button" name="button">
+
+                <img class="mr-3" src="assets/images/icons/search.svg" alt=""> 絞り込む</button>
+            </td>
+
+
+          </tr>
+        </table>
+      </div>
+
+      <div class="d-block d-lg-none mt-4 ">
+        <button class="g-btn mx-auto" type="button" name="button" data-toggle="modal" data-target="#sort-modal">
+          <img class="mr-2" src="assets/images/icons/search.svg" alt="">
+          絞り込む： フィルター適用中
+        </button>
       </div>
 
     </div>
   </section>
 
+
+  <div class="modal fade sort-modal" id="sort-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body p-0">
+          <div class="form-group">
+            <label class="p-12">エリア</label>
+            <select class="g-input m-0 w-100" name="">
+              <option value="" selected>神奈川県</option>
+              <option value="">神奈川県</option>
+              <option value="">神奈川県</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="p-12">職種</label>
+            <select class="g-input m-0 w-100" name="">
+              <option value="" selected>ブロックチェーンエン</option>
+              <option value="">ブロックチェーンエン</option>
+              <option value="">ブロックチェーンエン</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="p-12">職種(フリーワード)</label>
+            <input class="g-input m-0 w-100" type="text" name="" value="" placeholder="職種(フリーワード)">
+          </div>
+          <div class="form-group">
+            <label class="p-12">仕事の相談</label>
+            <select class="g-input m-0 w-100" name="">
+              <option value="" selected>お休み中</option>
+              <option value="">お休み中</option>
+              <option value="">お休み中</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="p-12">氏名orビジネスネーム</label>
+            <select class="g-input m-0 w-100" name="">
+              <option value="" selected>無料会員</option>
+              <option value="">無料会員</option>
+              <option value="">無料会員</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="p-12">会員種別</label>
+            <input class="g-input m-0 w-100" type="text" name="" value="" placeholder="氏名orビジネスネーム">
+          </div>
+        </div>
+        <div class="modal-footer d-flex align-items-center justify-content-center">
+          <button type="button" class="g-btn w-50 m-0" data-dismiss="modal">キャンセル</button>
+          <button type="button" class="g-btn w-50 m-0 ">
+            <img class="mr-2" src="assets/images/icons/search.svg" alt="">
+            絞り込む</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+<section class="sec-box pt-2 pt-lg-3 pt-xl-2  mb-4 mb-lg-4 mb-xl-5">
+  <hr class="b-hr mb-4 mb-lg-4 mb-xl-5">
+  <div class=" pt-2 pt-lg-3 pt-xl-2">
+    <div class="row">
+      <div class="col-12 col-lg-6">
+        <div class="d-flex align-items-center justify-content-center">
+          <img src="assets/images/icons/verification.svg" alt="">
+          <p class="p-12 pl-2">
+フリーランス協会一般会員で、本人確認済み。納品物の瑕疵、情報漏洩、著作権侵害等の賠償責任を補償する保険に加入しているので安心して取引ができます。
+          </p>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="d-flex align-items-center justify-content-end pt-4 pt-lg-0">
+          <p class="p-12 font-sora pr-4">Sorting</p>
+          <select class="g-input m-0 w-auto" name="">
+            <option value="" selected>更新日順</option>
+            <option value="">更新日順</option>
+            <option value="">更新日順</option>
+          </select>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="pagination d-block d-lg-none">
+  <ul>
+    <li> <a href="#"> <img src="assets/images/icons/pagination-left.svg" alt=""> </a> </li>
+    <li class="active"> <a href="#"> 1 </a> </li>
+    <li> <a href="#"> 2 </a> </li>
+    <li> <a href="#"> 3 </a> </li>
+    <li> ... </li>
+    <li> <a href="#"> 10 </a> </li>
+    <li> <a href="#"> 11 </a> </li>
+    <li> <a href="#"> 12 </a> </li>
+    <li> <a href="#"> <img src="assets/images/icons/pagination-right.svg" alt=""> </a> </li>
+  </ul>
+</div>
+
+<section class="sec-box mt-0 pt-2 pt-lg-3 pt-xl-2 mb-2">
+  <div class="">
+    <div class="d-flex align-items-center justify-content-center flex-wrap m--10">
+
+      <div class=" protected-card p-10">
+        <div class="card-shadow">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/1.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/2.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/3.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/4.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/5.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/6.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/7.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/8.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/9.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/10.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/11.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/12.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/13.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/14.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/15.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/16.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/17.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/18.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/19.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/20.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/21.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/22.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/23.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/24.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/25.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/26.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/27.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/28.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/29.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/30.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/31.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/32.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/33.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/34.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/35.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/36.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/37.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/38.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/39.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/40.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/41.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/42.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/43.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/44.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+      <div class="protected-card p-10">
+        <div class="card-shadow ">
+          <div class="img">
+            <img  class="img-fluid" src="assets/images/test/g.png" alt="">
+          </div>
+          <div class="d-flex flex-row align-items-center justify-content-start mb-lg-1">
+            <img class="pr-3" src="assets/images/icons/verification.svg" alt="">
+            <div class="">
+              <h2 class="h-16-14">歯科矯正の窓口</h2>
+              <p class="p-12 font-w-400">Webマーケティング</p>
+            </div>
+          </div>
+          <hr class="b-hr my-3 py-0">
+          <p class="p-12 mt-lg-1 font-w-400">キャリア支援の会社経営と企業人事のパラレルキャリア </p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</section>
+
+<div class="pagination mt-2 mt-lg-3">
+  <ul>
+    <li> <a href="#"> <img src="assets/images/icons/pagination-left.svg" alt=""> </a> </li>
+    <li class="active"> <a href="#"> 1 </a> </li>
+    <li> <a href="#"> 2 </a> </li>
+    <li> <a href="#"> 3 </a> </li>
+    <li> ... </li>
+    <li> <a href="#"> 10 </a> </li>
+    <li> <a href="#"> 11 </a> </li>
+    <li> <a href="#"> 12 </a> </li>
+    <li> <a href="#"> <img src="assets/images/icons/pagination-right.svg" alt=""> </a> </li>
+  </ul>
+</div>
 
 
   <footer class="sec-box" id="footer-accordion">
