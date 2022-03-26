@@ -1493,3 +1493,6 @@ padding: 10px;
 .highlighted-news .arrows:hover{
   opacity: 1;
 }
+.overflow-visible{
+  overflow: visible !important;
+}
