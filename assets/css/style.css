@@ -20,7 +20,9 @@ nav {
   background-color: transparent !important;
 }
 
-nav .navbar-brand {}
+nav .navbar-brand {
+    padding: 0;
+}
 
 nav .navbar-brand img {
   width: 26px;
@@ -87,7 +89,9 @@ nav .profile-dropdown .dropdown-menu {
   top: calc(100% + 12px);
   background: transparent;
 }
-
+nav .profile-dropdown .dropdown-menu::after{
+  display: none;
+}
 nav .profile-dropdown .nav-link {
   background: #FFFFFF;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
@@ -125,7 +129,53 @@ nav .navbar-toggler {
 .dropdown-menu.show {
   display: block !important;
 }
+nav .dropdown-menu{
 
+background: #FFFFFF;
+
+border-radius: 5px;
+
+padding: 20px;
+
+margin: 0;
+
+border: 0;
+
+top: 120%;
+
+left: auto;
+
+right: 0;
+}
+nav .dropdown-menu .dropdown-item:focus,
+nav .dropdown-menu .dropdown-item{
+  font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+display: flex;
+align-items: center;
+letter-spacing: 0.08em;
+color: #373F66;
+  margin-bottom: 20px;
+  padding: 0;
+  background: transparent;
+}
+nav .dropdown-menu .dropdown-item:nth-last-of-type(1){
+  margin-bottom: 0;
+}
+nav .dropdown-menu::after{
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 0px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #FFFFFF;
+  position: absolute;
+  right: 30px;
+  top: 0px;
+  transform: translateY(-50%) rotate(45deg);
+}
 .news-heading {
   font-style: normal;
   font-weight: 700;
