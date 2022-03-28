@@ -421,7 +421,7 @@ nav .dropdown-menu::after{
 }
 .news-sec .list-news .list-news-item .info a::after{
   position: absolute;
-  bottom: 16px;
+  bottom: 18px;
   top: auto;
   transform: none;
   right: 12px;
@@ -968,7 +968,7 @@ footer{
   background: url('../images/footer-bg.svg');
   background-repeat: repeat;
   background-position: top;
-  background-size: cover;
+  background-size: 1360px auto;
   padding-top: 60px !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;

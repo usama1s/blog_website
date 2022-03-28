@@ -253,6 +253,11 @@
   .highlighted-news .arrows{
     top: 32%;
   }
+  .news-sec .list-news .list-news-item .info a::after{
+
+bottom: 17px;
+
+}
 }
 
 
@@ -268,7 +273,7 @@
 
 
 
-@media (max-width:1023px) {
+@media only screen and (max-width:1023px) {
   nav {
     padding: 16px 0 !important;
   }
@@ -294,9 +299,9 @@
     padding: 0 16px;
   }
 
-  .news-sec .highlighted-news {
+  /* .news-sec .highlighted-news {
     display: none;
-  }
+  } */
 
   .news-sec .list-news {
     display: flex;
