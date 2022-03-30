@@ -16,6 +16,8 @@
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <link rel="stylesheet" href="assets/slick-master/slick/slick.css">
+  <link rel="stylesheet" href="assets/slick-master/slick/slick-theme.css">
 
   <!-- <script src="assets/bootstrap/js/bootstrap.min.js" type="text/javascript"></script> -->
   <link rel="stylesheet" href="assets/css/bootstrap.css">
@@ -27,6 +29,7 @@
 </head>
 
 <body>
+
   <section class="sec-box top-header">
     <header class="overflow-visible">
       <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
@@ -38,7 +41,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
 
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <ul class="navbar-nav mx-auto mt-lg-0 p-0">
             <li class="nav-item">
               <a class="nav-link" href="#">会員向けサービス</a>
             </li>
@@ -76,10 +79,13 @@
             <li class="nav-item">
               <a class="nav-link" href="#">お問合せ</a>
             </li>
-            <li class="nav-item dropdown profile-dropdown d-flex d-lg-none d-xl-flex ml-0 ml-lg-5">
-              <div class="dropdown-menu d-block position-static d-flex" aria-labelledby="navbarDropdownMenuLink3">
-                <a class="dropdown-item" href="#">ログイン</a>
-                <a class="dropdown-item" href="#">会員登録</a>
+          </ul>
+          <ul class="navbar-nav mr-0 mt-2 mt-lg-0 p-0">
+
+            <li class="nav-item dropdown profile-dropdown d-flex d-lg-none d-xl-flex m-0 ">
+              <div class="dropdown-menu d-block position-static d-flex align-items-center justify-content-center" aria-labelledby="navbarDropdownMenuLink3">
+                <a class="dropdown-item ml-0" href="#">ログイン</a>
+                <a class="dropdown-item mr-0" href="#">会員登録</a>
               </div>
             </li>
             <li class="nav-item dropdown profile-dropdown d-none d-lg-flex d-xl-none ">
@@ -97,15 +103,15 @@
     </header>
   </section>
 
-
-  <section class="sec-box">
-    <div class="">
+<main class="overflow-hidden">
+  <section class="news-m-sec sec-box overflow-visible">
+    <div class=" overflow-visible">
       <div class="mt-90">
         <h1 class="news-heading">News <img src="assets/images/icons/news-logo.svg" alt=""> </h1>
       </div>
       <div class="news-sec d-none d-lg-block">
         <div class="row">
-          <div class="col-0 col-md-7 col-xl-8">
+          <div class="col hh">
             <div class="highlighted-news" data-attribute="0">
               <div class="">
                 <div class="img">
@@ -131,7 +137,7 @@
 
             </div>
           </div>
-          <div class="col-12 col-md-5 col-xl-4">
+          <div class="col ll">
             <div class="list-news list-news-slider">
 
               <div class="list-news-item">
@@ -216,115 +222,110 @@
 
 
 
-      <div class="news-sec d-block d-lg-none">
+      <div class="news-sec d-block d-lg-none overflow-visible">
         <div class="slider list-news">
-          <ul class="cs-hidden slider_all">
-            <li>
-              <div class="list-news-item">
+          <div class="slick_slider_all">
 
-                <div class="">
-                  <div class="img">
-                    <div class="">
-                      <img src="assets/images/news-img-1.png" alt="">
-                    </div>
-                  </div>
-                  <div class="info">
-                    <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                    <a href="#"> <span>続きを読む</span> </a>
-                    <div class="share">
-                      <p>2022/01/27</p>
-                      <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
-                    </div>
+
+
+            <div class="list-news-item">
+
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-1.png" alt="">
                   </div>
                 </div>
-
-              </div>
-
-            </li>
-            <li>
-              <div class="list-news-item">
-
-                <div class="">
-                  <div class="img">
-                    <div class="">
-                      <img src="assets/images/news-img-2.png" alt="">
-                    </div>
-                  </div>
-                  <div class="info">
-                    <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                    <a href="#"> <span>続きを読む</span> </a>
-                    <div class="share">
-                      <p>2022/01/27</p>
-                      <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-            </li>
-            <li>
-              <div class="list-news-item">
-                <div class="">
-                  <div class="img">
-                    <div class="">
-                      <img src="assets/images/news-img-3.png" alt="">
-                    </div>
-                  </div>
-                  <div class="info">
-                    <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                    <a href="#"> <span>続きを読む</span> </a>
-                    <div class="share">
-                      <p>2022/01/27</p>
-                      <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
-                    </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <a href="#"> <span>続きを読む</span> </a>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
                   </div>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="list-news-item">
-                <div class="">
-                  <div class="img">
-                    <div class="">
-                      <img src="assets/images/news-img-4.png" alt="">
-                    </div>
+
+            </div>
+
+            <div class="list-news-item">
+
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-2.png" alt="">
                   </div>
-                  <div class="info">
-                    <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                    <a href="#"> <span>続きを読む</span> </a>
-                    <div class="share">
-                      <p>2022/01/27</p>
-                      <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
-                    </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <a href="#"> <span>続きを読む</span> </a>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
                   </div>
                 </div>
               </div>
-            </li>
-            <li>
-              <div class="list-news-item">
-                <div class="">
-                  <div class="img">
-                    <div class="">
-                      <img src="assets/images/news-img-5.png" alt="">
-                    </div>
+
+            </div>
+
+
+            <div class="list-news-item">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-3.png" alt="">
                   </div>
-                  <div class="info">
-                    <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                    <a href="#"> <span>続きを読む</span> </a>
-                    <div class="share">
-                      <p>2022/01/27</p>
-                      <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
-                    </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <a href="#"> <span>続きを読む</span> </a>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
                   </div>
                 </div>
               </div>
-            </li>
+            </div>
 
-          </ul>
+            <div class="list-news-item">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-4.png" alt="">
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <a href="#"> <span>続きを読む</span> </a>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="list-news-item">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-5.png" alt="">
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <a href="#"> <span>続きを読む</span> </a>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"><img src="assets/images/icons/share.svg" alt=""></a>
+                  </div>
+                </div>
+              </div>
+            </div>
 
 
 
+          </div>
 
 
         </div>
@@ -335,21 +336,26 @@
   </section>
 
 
+</main>
 
-  <section class="sec-box overflow-visible">
+
+
+  <section class="sec-box overflow-visible all-articles-sec">
     <div class=" overflow-visible">
-      <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt=""> All Articles</h1>
+      <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt="">All Articles</h1>
 
+<div class=" nav-pills">
+  <ul class="nav">
+    <li><a class="active show" data-toggle="pill" href="#menu1">全体</a></li>
+    <li><a data-toggle="pill" href="#menu2">プレスリリース</a></li>
+    <li><a data-toggle="pill" href="#menu3">活動報告</a></li>
+    <li><a data-toggle="pill" href="#menu4">イベント情報</a></li>
+    <li><a data-toggle="pill" href="#menu5">メディア掲載</a></li>
+    <li><a data-toggle="pill" href="#menu6">お知らせ</a></li>
+  </ul>
+</div>
 
-      <ul class="nav nav-pills">
-        <li><a class="active show" data-toggle="pill" href="#menu1">全体</a></li>
-        <li><a data-toggle="pill" href="#menu2">プレスリリース</a></li>
-        <li><a data-toggle="pill" href="#menu3">活動報告</a></li>
-        <li><a data-toggle="pill" href="#menu4">イベント情報</a></li>
-        <li><a data-toggle="pill" href="#menu5">メディア掲載</a></li>
-        <li><a data-toggle="pill" href="#menu6">お知らせ</a></li>
-      </ul>
-      <div class="pagination d-block d-lg-none mt-3 mb-2">
+      <div class="pagination d-block d-lg-none mt-0 mb-0">
         <ul>
           <li> <a href="#"> <img src="assets/images/icons/pagination-left.svg" alt=""> </a> </li>
           <li class="active"> <a href="#"> 1 </a> </li>
@@ -358,7 +364,7 @@
           <li> ... </li>
           <li> <a href="#"> 10 </a> </li>
           <li> <a href="#"> 11 </a> </li>
-          <li> <a href="#"> 12 </a> </li>
+          <li class="d-none d-lg-block"> <a href="#"> 12 </a> </li>
           <li> <a href="#"> <img src="assets/images/icons/pagination-right.svg" alt=""> </a> </li>
         </ul>
       </div>
@@ -1466,7 +1472,7 @@
     </div>
 
 
-    <div class="pagination">
+    <div class="pagination mt-1">
       <ul>
         <li> <a href="#"> <img src="assets/images/icons/pagination-left.svg" alt=""> </a> </li>
         <li class="active"> <a href="#"> 1 </a> </li>
@@ -1475,7 +1481,7 @@
         <li> ... </li>
         <li> <a href="#"> 10 </a> </li>
         <li> <a href="#"> 11 </a> </li>
-        <li> <a href="#"> 12 </a> </li>
+        <li class="d-none d-lg-block"> <a href="#"> 12 </a> </li>
         <li> <a href="#"> <img src="assets/images/icons/pagination-right.svg" alt=""> </a> </li>
       </ul>
     </div>
@@ -1488,15 +1494,23 @@
 
 
 
+  <main class="overflow-hidden">
 
 
-  <section class="sec-box">
-    <div class="">
-      <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt=""> Popular Articles</h1>
-      <div class="slider popular-articles-list">
-        <ul class="cs-hidden slider_all">
+    <section class="sec-box  overflow-visible mb-0 pt-1">
+      <div class=" overflow-visible">
+        <h1 class="sec-heading">
+          <img src="assets/images/icons/sec-heading.svg" alt="">Popular Articles
+        </h1>
 
-          <li class="">
+      </div>
+    </section>
+    <section class="sec-box slider-sec overflow-visible">
+      <div class=" overflow-visible">
+        <div class="slider popular-articles-list">
+          <div class="slick_slider_all">
+
+
             <div class="popular-article-item ">
               <div class="">
                 <div class="img">
@@ -1513,63 +1527,58 @@
                 </div>
               </div>
             </div>
-          </li>
-          <li class="">
-            <div class="popular-article-item ">
-              <div class="">
-                <div class="img">
-                  <div class="">
-                    <img src="assets/images/news-img-2.png" alt="">
-                  </div>
-                </div>
-                <div class="info">
-                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                  <div class="share">
-                    <p>2022/01/27</p>
-                    <a href="#"> <span>続きを読む</span> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="">
-            <div class="popular-article-item ">
-              <div class="">
-                <div class="img">
-                  <div class="">
-                    <img src="assets/images/news-img-2.png" alt="">
-                  </div>
-                </div>
-                <div class="info">
-                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                  <div class="share">
-                    <p>2022/01/27</p>
-                    <a href="#"> <span>続きを読む</span> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li class="">
-            <div class="popular-article-item ">
-              <div class="">
-                <div class="img">
-                  <div class="">
-                    <img src="assets/images/news-img-2.png" alt="">
-                  </div>
-                </div>
-                <div class="info">
-                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
-                  <div class="share">
-                    <p>2022/01/27</p>
-                    <a href="#"> <span>続きを読む</span> </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </li>
 
-          <li>
+            <div class="popular-article-item ">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-2.png" alt="">
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"> <span>続きを読む</span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popular-article-item ">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-2.png" alt="">
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"> <span>続きを読む</span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="popular-article-item ">
+              <div class="">
+                <div class="img">
+                  <div class="">
+                    <img src="assets/images/news-img-2.png" alt="">
+                  </div>
+                </div>
+                <div class="info">
+                  <h1>複数の」ビジネスで働くためのフリーランス＆完全ガイドビジネスで働くためのフリーランス＆完全ガイド...</h1>
+                  <div class="share">
+                    <p>2022/01/27</p>
+                    <a href="#"> <span>続きを読む</span> </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div class="popular-article-item last">
               <div class="">
                 <div class="info">
@@ -1580,25 +1589,22 @@
 
               </div>
             </div>
-          </li>
-
-
-        </ul>
+          </div>
+        </div>
       </div>
-    </div>
 
-  </section>
-
+    </section>
+  </main>
 
 
   <section class="sec-box mb-0">
     <div class="other-articles">
-      <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt=""> Other site articles</h1>
+      <h1 class="sec-heading"> <img src="assets/images/icons/sec-heading.svg" alt="">Other site articles</h1>
 
       <div class="row">
         <div class="col-12 col-lg-4">
           <a href="#">
-            <div class="other-article-item">
+            <div class="other-article-item ml-lg-0 ml-auto">
               <img src="assets/images/banner1.png" alt="">
             </div>
           </a>
@@ -1614,7 +1620,7 @@
         </div>
         <div class="col-12 col-lg-4">
           <a href="#">
-            <div class="other-article-item">
+            <div class="other-article-item mr-lg-0 mr-auto">
               <img src="assets/images/banner3.png" alt="">
             </div>
           </a>
@@ -1703,7 +1709,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 col-lg-4">
+      <div class="col-12 col-lg-4 pr-0">
         <div class="facebook-page">
           <!-- <img src="assets/images/facebook-page-bg.png" alt=""> -->
           <div class="">
@@ -1844,9 +1850,28 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
   <!-- <script src="assets/bootstrap/js/bootstrap.min.js"></script> -->
 
-  <script type="text/javascript" src="assets/js/lightslider.js"></script>
+  <!-- <script type="text/javascript" src="assets/js/lightslider.js"></script> -->
+  <script src="assets/slick-master/slick/slick.min.js"></script>
+  <script src="assets/slick-master/slick/to/slick.js"></script>
   <script>
     $(document).ready(function() {
+
+      $('.slick_slider_all').slick({
+        draggable: false,
+        speed: 500,
+        infinite: false,
+        arrows: true,
+        prevArrow: '<div class="slick-prev"><img src="assets/images/icons/left.svg"></div>',
+        nextArrow: '<div class="slick-next"><img src="assets/images/icons/right.svg"></div>',
+        zIndex: 10000,
+        accessibility: true,
+        variableWidth: true,
+        focusOnSelect: false,
+        centerMode: false,
+        // adaptiveHeight: true
+      });
+
+
       $('.slider_all').lightSlider({
         autoWidth: true,
         loop: false,
